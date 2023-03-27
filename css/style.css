@@ -167,7 +167,11 @@ header nav ul li:hover{
     line-height: 44px;
     line-height: 100%;
     color: #21243D;
+<<<<<<< HEAD
     margin-bottom: ;
+=======
+
+>>>>>>> 6c7dd63 (John project)
 }
 .sub_banner article span1{
     background: #142850;
@@ -274,4 +278,139 @@ footer ul li a img{
     font-size: 14px;
     line-height: 21px;
     color: #21243D;
+<<<<<<< HEAD
+=======
+}
+
+/*Recent posts*/
+
+.recent_posts{
+    background: #EDF7FA;
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+.recent_posts .container{
+    margin: auto;
+    display: flex;
+    max-width: 856px;
+    align-items: center;
+    justify-content: space-between;
+}
+.recent_posts .container p{
+    font-family: 'heeboregular';
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.recent_posts .container a{
+    font-family: 'heeboregular';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    text-decoration: none;
+}
+.windows{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 856px;
+}
+.windows .design_system{
+    background-color: #FFFFFF;
+    padding: 24px 21px 7px 23px;
+    max-width: 418px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.windows .design_system h3{
+    font-family: 'heebobold';
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+    height: 85px;
+    width: 374px;
+}
+.design_system .s_container{
+    height: 34px;
+    width: 374px;
+    margin-bottom: 11px;
+}
+.design_system .s_container .date{
+    font-family: 'heeboregular';
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.design_system .s_container .date::after{
+    content: "";
+    height: 21px;
+    border: 1px solid #000000;
+    margin-left: 26px;
+}
+.design_system .s_container .place{
+    font-family: 'heeboregular';
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-left: 26px;
+}
+.windows .design_system p{
+    font-family: 'heeboregular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    height: 117px;
+    width: 368px;
+}
+.windows .perfect_icons{
+    background-color: #FFFFFF;
+    padding: 24px 21px 7px 23px;
+    max-width: 418px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.windows .perfect_icons h3{
+    font-family: 'heebobold';
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+    height: 85px;
+    width: 374px;
+}
+.perfect_icons .s_container{
+    height: 34px;
+    width: 374px;
+    margin-bottom: 11px;
+}
+.perfect_icons .s_container .date{
+    font-family: 'heeboregular';
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.perfect_icons .s_container .date::after{
+    content: "";
+    height: 21px;
+    border: 1px solid #000000;
+    margin-left: 26px;
+}
+.perfect_icons .s_container .place{
+    font-family: 'heeboregular';
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-left: 25px;
+}
+.windows .perfect_icons p{
+    font-family: 'heeboregular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    height: 117px;
+    width: 368px;
+>>>>>>> 6c7dd63 (John project)
 }
