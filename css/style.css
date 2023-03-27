@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'heebomedium';
+    src: url('../fonts/heebo-medium-webfont.eot');
+    src: url('../fonts/heebo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-medium-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-medium-webfont.woff') format('woff'),
+    url('../fonts/heebo-medium-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-medium-webfont.svg#heebomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-bold-webfont.woff') format('woff'),
+    url('../fonts/heebo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'heeboregular';
+    src: url('../fonts/heebo-regular-webfont.eot');
+    src: url('../fonts/heebo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-regular-webfont.woff') format('woff'),
+    url('../fonts/heebo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-regular-webfont.svg#heeboregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vollkornitalic';
+    src: url('../fonts/vollkorn-italic-webfont.eot');
+    src: url('../fonts/vollkorn-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vollkorn-italic-webfont.woff2') format('woff2'),
+    url('../fonts/vollkorn-italic-webfont.woff') format('woff'),
+    url('../fonts/vollkorn-italic-webfont.ttf') format('truetype'),
+    url('../fonts/vollkorn-italic-webfont.svg#vollkornitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'heeboblack';
+    src: url('../fonts/heebo-black-webfont.eot');
+    src: url('../fonts/heebo-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-black-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-black-webfont.woff') format('woff'),
+    url('../fonts/heebo-black-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-black-webfont.svg#heeboblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding-top: 27px;
+}
+.container{
+    max-width: 1032px;
+    margin: auto;
+}
+#navigation {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end
+}
+header nav ul li {
+    margin-left: 33px;
+}
+header nav ul li a {
+    font-family: 'heebomedium';
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+}
+.main_banner {
+    padding-top: 140px;
+    padding-bottom: 71px;
+}
+.main_banner article{
+    max-width: 497px;
+}
+.main_banner h1{
+    font-family: 'heebobold';
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+
+}
+.main_banner p{
+    font-family: 'heeboregular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 38px;
+}
+.main_banner a{
+    font-family: 'heebomedium';
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    padding-top: 9px;
+    padding-right: 21px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    text-decoration: none;
+    margin-bottom: 71px;
+}
+.sub_container{
+    max-width: 858px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main_image{
+    max-width: 243px;
+}
+.main_image img{
+    width: 100%;
+    display: block;
+}
+header nav ul li:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.sub_banner{
+    padding-top: 15px;
+    padding-bottom: 87px;
+}
+.sec_container{
+    max-width: 858px;
+    margin: auto;
+}
+.sec_container h3{
+    justify-content: flex-start;
+    font-family: 'heeboregular';
+    line-height: 60px;
+    line-height: 186%;
+    color: #21243D;
+    margin-bottom: 22px;
+}
+.mid1_banner{
+    margin: auto;
+    display: flex;
+}
+.mid1_image{
+    max-width: 246px;
+}
+.mid1_image img{
+    width: 100%;
+    display: block;
+}
+.sub_banner article h2{
+    margin-left: 18px;
+    font-family: 'heebobold';
+    line-height: 44px;
+    line-height: 100%;
+    color: #21243D;
+    margin-bottom: ;
+}
+.sub_banner article span1{
+    background: #142850;
+    border-radius: 16px;
+    height: 25px;
+    width: 60px;
+    font-family: 'heeboblack';
+    line-height: 60px;
+    line-height: 227%;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+.down_banner{
+    background: #000000;
+    padding-top: 69px;
+    padding-bottom: 194px;
+}
+.down_container{
+    max-width: 564px;
+    margin: auto;
+    text-align: center
+}
+.center div:nth-child(2) input{
+    background: rgba(255,255,255,0.2);
+}
+.name{
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px;
+    border: none;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    font-family: 'vollkornitalic';
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    background: rgba(255,255,255,0.18);
+}
+
+.down_banner textarea{
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    padding-top: 17px;
+    padding-left: 31px;
+    padding-right: 31px;
+    height: 127px;
+    font-family: 'vollkornitalic';
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 22px
+}
+.down_banner button{
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-bottom: 16px;
+    padding-left: 60px;
+    font-family: 'vollkornitalic';
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #8BCAC3;
+    border: solid 1px #7EC4BD;
+}
+footer{
+    padding-top: 51px;
+    padding-bottom: 54px;
+    background-color: #FFFFFF;
+}
+.f_container{
+    max-width: 680px;
+    text-align: center;
+    margin: auto;
+}
+#f_navigation{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+footer ul li{
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 26px;
+}
+footer ul li a img{
+    width: 100%;
+    display: block;
+}
+.f_container p{
+    font-family: 'heeboregular';
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+}
