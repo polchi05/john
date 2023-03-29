@@ -94,7 +94,6 @@ header nav ul li a {
     line-height: 60px;
     color: #21243D;
     margin-bottom: 40px;
-
 }
 .main_banner p{
     font-family: 'heeboregular';
@@ -167,11 +166,6 @@ header nav ul li:hover{
     line-height: 44px;
     line-height: 100%;
     color: #21243D;
-<<<<<<< HEAD
-    margin-bottom: ;
-=======
-
->>>>>>> 6c7dd63 (John project)
 }
 .sub_banner article span1{
     background: #142850;
@@ -183,8 +177,6 @@ header nav ul li:hover{
     line-height: 227%;
     color: #FFFFFF;
     text-align: center;
-
-
 }
 .down_banner{
     background: #000000;
@@ -278,8 +270,6 @@ footer ul li a img{
     font-size: 14px;
     line-height: 21px;
     color: #21243D;
-<<<<<<< HEAD
-=======
 }
 
 /*Recent posts*/
@@ -412,5 +402,4 @@ footer ul li a img{
     color: #21243D;
     height: 117px;
     width: 368px;
->>>>>>> 6c7dd63 (John project)
 }
